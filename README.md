@@ -14,3 +14,4 @@ This turns the "build" javascript into some javascript that the browser can read
 
 # Useful Websites
 - [Getting started with typescript](https://www.w3schools.com/typescript/typescript_getstarted.php)
+- [Getting started with webpack](https://webpack.js.org/guides/getting-started)
