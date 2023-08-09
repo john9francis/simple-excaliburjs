@@ -6,7 +6,9 @@ If you make any changes to the code, you must run the following commands:
 ```ps
 tsc
 ```
-This compiles the typescript from "src" into javascript in "build". Then run,
+This compiles the typescript from "src" into javascript in "build". 
+
+Then run,
 ```ps
 npx webpack --config webpack.config.js
 ```
