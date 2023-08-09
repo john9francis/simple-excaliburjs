@@ -14,6 +14,8 @@ npx webpack --config webpack.config.js
 ```
 This turns the "build" javascript into some javascript that the browser can read and puts it in the "main.js" file in "dist/". 
 
+This "main.js" file is the only script file needed to be referenced in the html file. 
+
 # Useful Websites
 - [Getting started with typescript](https://www.w3schools.com/typescript/typescript_getstarted.php)
 - [Getting started with webpack](https://webpack.js.org/guides/getting-started)
