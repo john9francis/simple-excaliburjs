@@ -32,4 +32,5 @@ To run, simply open index.html in a live server on your web browser and then try
 - [Welcome to excaliburjs](https://excaliburjs.com/docs/)
 - [Getting started with excaliburjs](https://excaliburjs.com/docs/getting-started/)
 - [Engine fundamentals excaliburjs](https://excaliburjs.com/docs/engine/)
+- [ExcaliburJS build and bundlers](https://excaliburjs.com/docs/bundlers/)
 

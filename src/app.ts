@@ -19,7 +19,7 @@ const game = new ex.Engine({
 // call game.start, which is a Promise
 game.start().then(function () {
   // ready, set, go!
+  
   const player1 = new Player(playerOptions);
   game.add(player1);
-  player1.test();
 })
