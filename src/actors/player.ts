@@ -30,7 +30,24 @@ export default class Player extends ex.Actor {
           this.vel.x = 0;
           this.vel.y = 0;
       }
-    })
+    });
+
+    // Make player stop upon letting go of a key
+    _engine.input.keyboard.on('release', (event)=>{
+      if (
+        event.key === ex.Input.Keys.Left ||
+        event.key === ex.Input.Keys.Right
+      ){
+        this.vel.x = 0;
+      }
+      if (
+        event.key === ex.Input.Keys.Up ||
+        event.key === ex.Input.Keys.Down
+      ){
+        this.vel.y = 0;
+      }
+      
+    });
 
   }
   
