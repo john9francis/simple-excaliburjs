@@ -9,7 +9,7 @@ export default class Player extends ex.Actor {
 
   onInitialize(_engine: ex.Engine): void {
     // define player speed
-    const speed = 100;
+    const speed = 300;
 
     // Bind arrow keys to movement
     _engine.input.keyboard.on('hold', (event) =>{
