@@ -3,10 +3,11 @@ import Player from './actors/player';
 //import playerOptions from './actors/player';
 
 const playerOptions: ex.ActorArgs = {
-  pos: new ex.Vector(1,2),
+  pos: new ex.Vector(100,100),
   width: 100,
   height: 100,
-  color: ex.Color.Red
+  color: ex.Color.Red,
+  collisionType: ex.CollisionType.Active
 }
 
 const game = new ex.Engine({
@@ -19,6 +20,17 @@ const game = new ex.Engine({
 // call game.start, which is a Promise
 game.start().then(function () {
   // ready, set, go!
+
+  // create boundry actors
+  const ground = new ex.Actor({
+    pos: ex.vec(game.halfDrawWidth, game.drawHeight),
+    width: game.drawWidth,
+    height: 100,
+    color: ex.Color.DarkGray,
+    collisionType: ex.CollisionType.Fixed
+  });
+
+  game.add(ground);
   
   const player1 = new Player(playerOptions);
   game.add(player1);
