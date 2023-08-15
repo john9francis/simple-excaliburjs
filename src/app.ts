@@ -30,8 +30,23 @@ game.start().then(function () {
     collisionType: ex.CollisionType.Fixed
   });
 
-  game.add(ground);
-  
+  // create player
   const player1 = new Player(playerOptions);
+
+  // create obstacle
+  const obstacle = new ex.Actor({
+    pos: ex.vec(300, 300),
+    width: 100,
+    height: 100,
+    color: ex.Color.DarkGray,
+    collisionType: ex.CollisionType.Fixed
+  })
+
+
+  // add everything to the game
+  game.add(ground);
   game.add(player1);
+  game.add(obstacle);
+
+
 })
