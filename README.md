@@ -1,6 +1,9 @@
 # simple-excaliburjs
 A very simple game in excalibur JS
 
+- [Latest Release](releases/latest)
+- [Demo video]()
+
 # Overview
 This project is a very simple setup to start developing games with [ExcaliburJS](https://excaliburjs.com/). This project is meant to be the bare minimum to get started. This is great for beginners who want to start game development in TypeScript!
 
