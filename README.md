@@ -8,7 +8,7 @@ This project is a very simple setup to start developing games with [ExcaliburJS]
 I developed simple excaliburjs in TypeScript. I used webpack to compile all the code into a single JavaScript file to run on the browser. 
 
 # How to develop from simple-excaliburjs
-If you would like, feel free to fork the repository and start developing your own game. ExcaliburJS requires TypeScript, so you will need to use that. The tsconfig file is configured to find your .ts files in the "src" directory. To get the typescript files into a format that the browser can read, you have to follow some steps. First, compile the typescript. Then, webpack that compiled javascript.
+If you would like, feel free to fork the repository and start developing your own game. ExcaliburJS requires TypeScript, so you will need to use that. The tsconfig file is configured to find your .ts files in the "src" directory. To get the typescript files into a format that the browser can read, you have to follow some steps. First, compile the typescript into javascript. Then, webpack that compiled javascript.
 
 To compile the typescript, you must run the following commands:
 ```ps
