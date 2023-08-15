@@ -1,7 +1,7 @@
 # simple-excaliburjs
 A very simple game in excalibur JS
 
-- [Latest Release](releases/latest)
+- [Latest Release](https://github.com/john9francis/simple-excaliburjs/releases/latest)
 - [Demo video]()
 
 # Overview
